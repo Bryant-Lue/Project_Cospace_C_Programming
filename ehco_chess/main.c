@@ -152,9 +152,9 @@ int main(){
                          {0, 0, 0, 0, 0, 0, 0, 0}};
 
     Flag flag;
-    init(&flag);
+    init(&flag);  // 一開始都是 0
 
-    count(board, &rem);
+    count(board, &rem);  // rem = 有多少棋子需要被消滅
     printf("Enter initial x, y: ");
     scanf("%d%d", &x, &y);
 
